@@ -1,20 +1,27 @@
-import { FaGear } from "react-icons/fa6";
+import AboutUs from "@/components/sections/aboutUs";
+import Contact from "@/components/sections/contact";
+import Footer from "@/components/sections/footer";
+import Header from "@/components/sections/header";
+import Hero from "@/components/sections/hero";
+import Services from "@/components/sections/services";
+import TypesOfCustomers from "@/components/sections/typesOfCustomers";
+import WhyWeChoose from "@/components/sections/whyWeChoose";
 
 
 export default function Home() {
   return (
-    <div className="h-screen w-full flex items-center justify-center text-white">
-      <div className="text-center">
-        <h1 className="text-5xl font-bold mb-4 flex items-center justify-center">
-          Em construção. <FaGear className="animate-spin" />
-        </h1>
-        <p className="mt-2 text-lg">
-          Aqui está sendo desenvolvido o que um dia será uma das maiores software houses do Brasil!
-        </p>
-        <div className="mt-8">
-          <span className="text-gray-400 text-sm">Fique ligado!</span>
-        </div>
+    <div className="w-full flex flex-col items-center justify-center gap-20 text-white px-3 scroll-smooth relative mx-auto overflow-visible">
+      <Header />
+      <Hero />
+      <div className="h-[300px] ">
+
       </div>
+      <AboutUs />
+      <Services />
+      <TypesOfCustomers />
+      <WhyWeChoose />
+      <Contact />
+      <Footer />
     </div>
   );
 }
