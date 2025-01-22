@@ -2,17 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.stroke {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(255, 255, 255, 0.137);
+}
+
+.custom-clip-path {
+  clip-path: polygon(0% 0%, 85% 0%, 100% 20%, 100% 100%, 20% 100%, 0% 85%);
+}
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 auto;
+}
+
 @layer base {
   :root {
-    --background: #07080d;
+    --background: #000000;
     --foreground: 0 0% 3.9%;
-    --card: #07080d;
+    --card: #000000;
     --card-foreground: 0 0% 3.9%;
-    --popover: #07080d;
+    --popover: #000000;
     --popover-foreground: 0 0% 3.9%;
     --primary: 0 0% 9%;
     --primary-foreground: 0 0% 98%;

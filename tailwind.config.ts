@@ -10,7 +10,7 @@ const config: Config = {
 	theme: {
 		extend: {
 			colors: {
-				background: '#07080D',
+				background: '#000000',
 				foreground: 'hsl(var(--foreground))',
 				card: {
 					DEFAULT: 'hsl(var(--card))',
@@ -49,7 +49,10 @@ const config: Config = {
 					'3': 'hsl(var(--chart-3))',
 					'4': 'hsl(var(--chart-4))',
 					'5': 'hsl(var(--chart-5))'
-				}
+				},
+				pink: '#F80068',
+				blue: '#5E17EB',
+				purple: '#5E17EB',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
