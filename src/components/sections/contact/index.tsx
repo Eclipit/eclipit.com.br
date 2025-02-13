@@ -14,7 +14,7 @@ export default function Contact() {
           e <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink to-blue">crescer</span> juntos?
         </h2>
         <a href="https://wa.me/558199560991?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Eclipit!" className="w-full sm:w-fit">
-          <Button className="bg-gradient-to-r from-pink to-blue sm:w-fit w-full">Fale conosco <RiWhatsappLine /></Button>
+          <Button className="bg-gradient-to-r from-pink to-blue sm:w-fit w-full">Fala conosco <RiWhatsappLine /></Button>
         </a>
         {/* <div className="max-w-[550px] mx-auto space-y-5">
           <p className="text-sm text-center w-full">Preencha o formulário e logo  logo entraremos em contato</p>
